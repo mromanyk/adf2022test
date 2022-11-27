@@ -1,0 +1,37 @@
+{
+	"name": "Parquet2",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage2connection",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "fromcsv"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": [
+			{
+				"name": "user_name",
+				"type": "UTF8"
+			},
+			{
+				"name": "display_name",
+				"type": "UTF8"
+			},
+			{
+				"name": "email_address",
+				"type": "UTF8"
+			},
+			{
+				"name": "login",
+				"type": "INT96"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

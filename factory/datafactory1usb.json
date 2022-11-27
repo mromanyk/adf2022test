@@ -1,0 +1,9 @@
+{
+	"name": "datafactory1usb",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "e68ad33b-2322-4eb3-9f29-7b8283d51f3f",
+		"tenantId": "b41b72d0-4e9f-4c26-8a69-f949f367c91d"
+	}
+}

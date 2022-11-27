@@ -1,0 +1,6 @@
+{
+	"name": "integrationRuntime1locallenovo",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}
