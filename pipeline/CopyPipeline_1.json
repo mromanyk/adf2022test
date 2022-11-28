@@ -71,7 +71,7 @@
 				},
 				"userProperties": [],
 				"typeProperties": {
-					"url": "https://ubskeyvault.vault.azure.net/secrets/blob1/18c6a65dd2f044e3b4c38239acb6e854",
+					"url": "https://ubskeyvault.vault.azure.net/secrets/blob1/18c6a65dd2f044e3b4c38239acb6e854?api-version=7.0",
 					"method": "GET",
 					"authentication": {
 						"type": "MSI",
