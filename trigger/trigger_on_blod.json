@@ -13,10 +13,10 @@
 		],
 		"type": "BlobEventsTrigger",
 		"typeProperties": {
-			"blobPathBeginsWith": "/conteiner1/blobs/data/",
+			"blobPathBeginsWith": "/container1privateblob/blobs/input/",
 			"blobPathEndsWith": ".csv",
 			"ignoreEmptyBlobs": true,
-			"scope": "/subscriptions/c4410e27-b6e2-4daf-8375-8a0b6547cd38/resourceGroups/UBS/providers/Microsoft.Storage/storageAccounts/adls1storage",
+			"scope": "/subscriptions/c4410e27-b6e2-4daf-8375-8a0b6547cd38/resourceGroups/UBS/providers/Microsoft.Storage/storageAccounts/blob1ubs",
 			"events": [
 				"Microsoft.Storage.BlobCreated"
 			]
