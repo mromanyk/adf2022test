@@ -13,7 +13,7 @@
 		],
 		"type": "BlobEventsTrigger",
 		"typeProperties": {
-			"blobPathBeginsWith": "/conteiner1/blobs/data/",
+			"blobPathBeginsWith": "/conteiner1/blobs/data1/",
 			"blobPathEndsWith": ".csv",
 			"ignoreEmptyBlobs": true,
 			"scope": "/subscriptions/c4410e27-b6e2-4daf-8375-8a0b6547cd38/resourceGroups/UBS/providers/Microsoft.Storage/storageAccounts/adls1storage",
